@@ -35,9 +35,17 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/i18n'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  i18n: {
+    messages: {
+      'en': require('~/locales/en.json'),
+      'ca': require('~/locales/ca.json')
+    }
   }
+
 }
