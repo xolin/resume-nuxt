@@ -1,5 +1,5 @@
 <template>
-    <p>Interests</p>    
+    <p>{{ $t('interests.title') }}</p>    
 </template>
 <script>
 export default {

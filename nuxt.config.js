@@ -42,10 +42,19 @@ export default {
   build: {
   },
   i18n: {
-    messages: {
-      'en': require('~/locales/en.json'),
-      'ca': require('~/locales/ca.json')
-    }
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-US',
+        file: 'en.js'
+       }, {
+        code:'ca',
+        iso: 'ca-ES',
+        file: 'ca.js'
+      }
+    ],    
+    defaultLocale: 'en',
+    langDir: 'locales'
   }
 
 }
