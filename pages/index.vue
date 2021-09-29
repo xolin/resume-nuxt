@@ -1,9 +1,14 @@
 <template>
-  <div>
+  <div class="container mx-auto p-6">
+
     <About :info="data.about" />
+    <hr>
     <Experience :experiences="data.experience" />
-    <Studies :studies="data.studies" />
-    <Interests :interests="data.interests" />
+    <hr>
+    <div class="flex flex-wrap ">
+      <Studies :studies="data.studies" />
+      <Interests :interests="data.interests" />
+    </div>
   </div>
 </template>
 
