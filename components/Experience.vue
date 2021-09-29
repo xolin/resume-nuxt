@@ -1,9 +1,16 @@
 <template>
-    <div>
-        <p>{{ $t('experience.title') }}</p>
-        <p v-for="exp in experiences" :key="exp.name">  
-            {{ exp.name }} : {{ exp.startDate }} - {{ exp.endDate }} ( {{ exp.role }} )
-        </p>
+    <div class="mb-4">
+        <h2 class="uppercase text-xl font-light pb-4">{{ $t('experience.title') }}</h2>
+        <div class="flex mb-2" v-for="exp in experiences" :key="exp.name">
+            <div class="w-1/3">
+                <p class="font-bold text-xl mb-2">{{ exp.name }}</p>
+                <p class="font-light text-xs"> {{ exp.role }} </p>
+                <p class="font-light text-xs"> {{ exp.startDate }} - {{ exp.endDate }}</p>
+            </div>
+            <div class="w-2/3">
+                <p class="text-sm">{{ exp.text }}</p>
+            </div>
+        </div>
     </div>
 </template>
 <script>
