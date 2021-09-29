@@ -3,10 +3,10 @@ export default {
         title: "About"
     },
     experience: {
-        title: "Experience--"
+        title: "Experience"
     },
     studies: {
-        title: "Studies"
+        title: "Education"
     },
     interests: { 
         title: "Interests"

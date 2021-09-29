@@ -6,7 +6,7 @@ export default {
         title: "Experiència"
     },
     studies: {
-        title: "Estudis"
+        title: "Educació"
     },
     interests: { 
         title: "Interesos"
