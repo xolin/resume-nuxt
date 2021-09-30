@@ -3,7 +3,7 @@
         <h2 class="uppercase text-xl font-light pb-4">{{ $t('interests.title') }}</h2>
         <ul>
             <li v-for="interest in interests" :key="interest.name">  
-                <p class="font-light text-sm">{{ interest }}</p>
+                <p class="font-light text-xs">{{ interest }}</p>
             </li>
         </ul>
     </div>

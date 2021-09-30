@@ -4,7 +4,7 @@
         <div class="mb-5" v-for="skill in skills" :key="skill.name"> 
             <p class="font-bold text-lg mb-1">{{ skill.name }}</p>
             <ul v-if="skill.frameworks.length">
-                <li class="font-light text-xs" v-for="framework in skill.frameworks" :key="framework.name">
+                <li class="font-light text-sm" v-for="framework in skill.frameworks" :key="framework.name">
                     {{framework.name}}
                 </li> 
             </ul>
