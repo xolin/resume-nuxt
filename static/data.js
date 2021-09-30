@@ -8,14 +8,14 @@ let data =
     },
     experience: [
         {
-            "name": "Helloyalty",
+            "name": "Facebook",
             "startDate": "01/2009",
             "endDate": "06/2011",
             "role" : "Fullstack Developer",
             "text" : "Skate ipsum dolor sit amet, g-turn John Carbis impossible regular footed carve. Bearings tailslide frontside air bone air. Transfer vert Video Days slob air airwalk. Ho-ho full-cab gap axle. Disaster frigid air snake slam. Crailtap slappy blunt transfer. Front foot impossible bruised heel lip quarter pipe. Bank Jeremy Klein lip switch boned out. Alien Workshop hanger feeble locals opposite footed. Slide full-cab front foot impossible Claus Grabke casper."
         },
         {
-            "name": "Duplex",
+            "name": "Amazon",
             "startDate": "07/2011",
             "endDate": "08/2013",
             "role" : "Fullstack Developer",
