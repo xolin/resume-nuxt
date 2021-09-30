@@ -3,7 +3,8 @@ let data =
     about: {
         "name": "Joan name fake",
         "phone": "666 777 888",
-        "email": "email@emailprov.com"
+        "email": "email@emailprov.com",
+        "github": "xolin"
     },
     experience: [
         {
