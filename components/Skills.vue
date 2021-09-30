@@ -12,7 +12,6 @@
     </div>
 </template>
 <script>
-import data from '../static/data'
 
 export default {
     props: {

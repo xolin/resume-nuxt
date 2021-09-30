@@ -19,7 +19,7 @@ import Experience from '../components/Experience.vue'
 import Studies from '../components/Studies.vue'
 import Interests from '../components/Interests.vue'
 import Skills from '../components/Skills.vue'
-import data from "../static/data"
+import data from "../../data"
 
 export default {
   components: { About, Experience, Studies, Interests, Skills },
