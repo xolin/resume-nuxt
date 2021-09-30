@@ -7,6 +7,7 @@
     <hr>
     <div class="flex flex-wrap ">
       <Studies :studies="data.studies" />
+      <Skills :skills="data.skills" />
       <Interests :interests="data.interests" />
     </div>
   </div>
@@ -17,10 +18,11 @@ import About from '../components/About.vue'
 import Experience from '../components/Experience.vue'
 import Studies from '../components/Studies.vue'
 import Interests from '../components/Interests.vue'
+import Skills from '../components/Skills.vue'
 import data from "../static/data"
 
 export default {
-  components: { About, Experience, Studies, Interests },
+  components: { About, Experience, Studies, Interests, Skills },
   data() {
     return {
       data: data

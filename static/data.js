@@ -38,6 +38,41 @@ let data =
     interests: 
     [
         'skateboarding', 'apiculture', 'guitar riffs'
+    ],
+    skills: [
+        {
+            "name": "HTML",
+            "icon": "",
+            "frameworks": [{
+                "name": "JQuery"
+            }]
+        },
+        {
+            "name": "Javascript",
+            "icon": "",
+            "frameworks": [
+                {
+                    "name": "JQuery"
+                },{
+                    "name": "Vuejs"
+                },{
+                    "name": "Nuxtjs"
+                }]
+        },
+        {
+            "name": "PHP",
+            "icon": "",
+            "frameworks": [
+                {
+                    "name": "Symfony"
+                }, { 
+                    "name": "Laravel"
+                }, {
+                    "name": "CakePHP"
+                },{
+                    "name": "CodeIgniter"
+                }]
+        },
     ]
 };
 export default data;

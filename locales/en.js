@@ -10,5 +10,8 @@ export default {
     },
     interests: { 
         title: "Interests"
+    },
+    skills: {
+        title: "Skills"
     }
 }
